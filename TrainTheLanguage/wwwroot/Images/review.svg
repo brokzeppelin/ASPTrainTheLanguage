@@ -2,14 +2,14 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="24"
-   height="19.09091"
-   viewBox="0 0 6.350004 5.05114"
+   width="18"
+   height="18"
+   viewBox="0 0 4.762503 4.7625032"
    version="1.1"
    id="svg1"
    xml:space="preserve"
    inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
-   sodipodi:docname="home.svg"
+   sodipodi:docname="review2.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -24,16 +24,16 @@
      inkscape:deskcolor="#505050"
      inkscape:document-units="px"
      showgrid="true"
-     inkscape:zoom="27.951852"
-     inkscape:cx="15.186829"
-     inkscape:cy="13.863124"
+     inkscape:zoom="39.529888"
+     inkscape:cx="9.220871"
+     inkscape:cy="9.4738442"
      inkscape:window-width="1827"
      inkscape:window-height="1057"
      inkscape:window-x="85"
      inkscape:window-y="1432"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1"
-     showguides="false"
+     showguides="true"
      inkscape:lockguides="false"><inkscape:grid
        id="grid4"
        units="px"
@@ -59,13 +59,19 @@
        inverse="true"
        flatten="false"
        hide_clip="false"
-       message="Use fill-rule evenodd on &lt;b&gt;fill and stroke&lt;/b&gt; dialog if no flatten result after convert clip to paths." /></defs><g
+       message="Use fill-rule evenodd on &lt;b&gt;fill and stroke&lt;/b&gt; dialog if no flatten result after convert clip to paths." /><clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath15"><rect
+         style="display:block;opacity:1;fill:#090806;fill-opacity:1;stroke:none;stroke-width:0.300228;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:stroke fill markers"
+         id="rect15"
+         width="1.2494708"
+         height="2.3001623"
+         x="2.5462701"
+         y="3.218334"
+         ry="0.43297169" /></clipPath></defs><g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"><path
-       id="path1"
-       style="display:inline;fill:#f5eddb;fill-opacity:1;stroke-width:0.264999;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
-       inkscape:transform-center-x="0.0017391758"
-       inkscape:transform-center-y="-0.35070801"
-       d="M -8.3840704 -40.985584 L -19.843015 -6.6182833 L -31.30196 27.749017 L -17.101483 24.844719 L 0.65143035 111.1801 L 15.016928 108.22616 L 6.5262692 66.934671 C 5.0879118 59.939699 6.0966703 53.860475 8.7875569 53.307155 L 13.08909 52.422643 C 15.779977 51.869323 19.105576 57.057284 20.543934 64.052257 L 29.034592 105.34374 L 43.231971 102.42438 L 25.488354 16.134208 L 39.688831 13.22991 L 15.647932 -13.884776 L -8.3840704 -40.985584 z "
-       transform="matrix(0.08552399,0.00676516,-0.01758607,0.03290011,3.1650647,1.4051498)" /></g></svg>
+       id="rect2"
+       style="display:inline;fill:#f5eddb;fill-opacity:1;stroke-width:5.46586;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       d="M 1.5688975 0 L 1.5688975 1.1053596 L 2.8473733 0 L 1.5688975 0 z M 2.8473733 0 L 3.4308006 0.6185673 L 1.5688975 2.2293227 L 1.5688975 3.2220277 L 2.8473733 2.116668 L 3.4308006 2.7352353 L 1.5688975 4.3459908 L 1.5688975 4.7625031 L 4.7625031 4.7625031 L 4.7625031 0 L 2.8473733 0 z M 1.5688975 4.3459908 L 1.5688975 3.2220277 L 1.3110319 3.4447532 L 0.68884729 2.6758074 L 0 3.1899882 L 1.1994108 4.6658681 L 1.5688975 4.3459908 z M 1.5688975 2.2293227 L 1.5688975 1.1053596 L 1.3110319 1.3280852 L 0.68884729 0.55913936 L 0 1.0733202 L 1.1994108 2.5492001 L 1.5688975 2.2293227 z " /></g></svg>

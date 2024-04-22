@@ -1,5 +1,6 @@
 :root {
     --text-white: #f5eddb;
+    --text-base: #241c23;
 }
 
 html {
@@ -19,11 +20,11 @@ html {
 
 body {
     margin-bottom: 60px;
-    background-color: #241c23;
+    background-color: var(--text-base);
 }
 
 .navbar {
-    background-color: #241c23;
+    background-color: var(--text-base);
 }
 
 .nav-link:hover {
@@ -46,11 +47,33 @@ body {
     max-width: 1350px;
 }
 
+.flag-xs {
+    width: 20px;
+    border: 1px solid var(--text-base);
+    margin: 0 5px;
+}
+
+.dropdown-menu {
+    background-color: var(--text-white);
+    border-radius: 0rem;
+}
+
+.dropdown-menu > li :hover {
+    background-color: #726970;
+}
+
+a.dropdown-item {
+    color: var(--text-base) !important;
+}
+
+h1 {
+    padding-bottom: 7rem;
+}
+
 /* Wiggling flags */
 
 .flag {
-    width: 50%;
-    
+    width: 50%;    
 }
 
 .flag-col {
@@ -81,26 +104,4 @@ body {
     40%, 60% {
         transform: translate3d(0, -2px, 0);
     }
-}
-
-/* Header light and h1 inner shadow */
-
-.blur {
-    height: 12rem;
-    width: 25rem;
-    background-color: var(--text-red);
-    filter: blur(112px);
-    border-radius: 0px;
-    z-index: 0;
-    position: absolute;
-}
-
-h1 {
-    padding-bottom: 7rem;
-    /*background-color: #141414;
-    color: transparent;
-    text-shadow: 1px 2px 1px rgba(54,48,48,0.8);
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    background-clip: text;*/
 }

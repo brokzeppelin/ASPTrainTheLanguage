@@ -2,14 +2,14 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="24"
-   height="19.09091"
-   viewBox="0 0 6.350004 5.05114"
+   width="18"
+   height="18"
+   viewBox="0 0 4.762503 4.7625032"
    version="1.1"
    id="svg1"
    xml:space="preserve"
    inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
-   sodipodi:docname="home.svg"
+   sodipodi:docname="plus.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -33,7 +33,7 @@
      inkscape:window-y="1432"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1"
-     showguides="false"
+     showguides="true"
      inkscape:lockguides="false"><inkscape:grid
        id="grid4"
        units="px"
@@ -59,13 +59,28 @@
        inverse="true"
        flatten="false"
        hide_clip="false"
-       message="Use fill-rule evenodd on &lt;b&gt;fill and stroke&lt;/b&gt; dialog if no flatten result after convert clip to paths." /></defs><g
+       message="Use fill-rule evenodd on &lt;b&gt;fill and stroke&lt;/b&gt; dialog if no flatten result after convert clip to paths." /><clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath15"><rect
+         style="display:block;opacity:1;fill:#090806;fill-opacity:1;stroke:none;stroke-width:0.300228;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:stroke fill markers"
+         id="rect15"
+         width="1.2494708"
+         height="2.3001623"
+         x="2.5462701"
+         y="3.218334"
+         ry="0.43297169" /></clipPath></defs><g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1"><path
-       id="path1"
-       style="display:inline;fill:#f5eddb;fill-opacity:1;stroke-width:0.264999;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
-       inkscape:transform-center-x="0.0017391758"
-       inkscape:transform-center-y="-0.35070801"
-       d="M -8.3840704 -40.985584 L -19.843015 -6.6182833 L -31.30196 27.749017 L -17.101483 24.844719 L 0.65143035 111.1801 L 15.016928 108.22616 L 6.5262692 66.934671 C 5.0879118 59.939699 6.0966703 53.860475 8.7875569 53.307155 L 13.08909 52.422643 C 15.779977 51.869323 19.105576 57.057284 20.543934 64.052257 L 29.034592 105.34374 L 43.231971 102.42438 L 25.488354 16.134208 L 39.688831 13.22991 L 15.647932 -13.884776 L -8.3840704 -40.985584 z "
-       transform="matrix(0.08552399,0.00676516,-0.01758607,0.03290011,3.1650647,1.4051498)" /></g></svg>
+     id="layer1"><rect
+       style="fill:#f5eddb;fill-opacity:1;stroke-width:3.85375;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       id="rect2"
+       width="1.587501"
+       height="4.7625031"
+       x="1.587501"
+       y="0" /><rect
+       style="fill:#f5eddb;fill-opacity:1;stroke-width:0.281252;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       id="rect3"
+       width="4.7625031"
+       height="1.587501"
+       x="0"
+       y="1.587501" /></g></svg>

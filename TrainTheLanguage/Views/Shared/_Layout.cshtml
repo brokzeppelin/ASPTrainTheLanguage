@@ -10,13 +10,29 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand py-4">
+        <nav class="navbar navbar-expand-lg navbar-dark py-3">
             <div class="container-fluid">
-                    <ul class="navbar-nav flex-grow-1">
-                    <li class="nav-item px-3">
-                        <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index"><img class navbar-img src="~/Images/home.svg"></a>
+                <a class="navbar-brand px-3" asp-area="" asp-controller="Home" asp-action="Index"><img class="navbar-img" src="~/Images/home.svg"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown px-4 py-3">
+                            <a class="nav-link align-center dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" asp-area="" asp-controller="Home" asp-action="Index"><img class="flag-xs" src="~/Images/eng.svg"></a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#"><img class="flag-xs" src="~/Images/pol.svg" /> Polish</a></li>
+                                <li><a class="dropdown-item" href="#"><img class="flag-xs" src="~/Images/deu.svg" /> German</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item px-4 py-3">
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index"><img class="navbar-img" src="~/Images/plus.svg"></a>
+                        </li>
+                        <li class="nav-item px-4 py-3">
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index"><img class="navbar-img" src="~/Images/review.svg"></a>
                         </li>
                     </ul>
+                </div>
             </div>
         </nav>
     </header>
