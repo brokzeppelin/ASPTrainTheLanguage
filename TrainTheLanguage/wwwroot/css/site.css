@@ -73,11 +73,12 @@ h1 {
 /* Wiggling flags */
 
 .flag {
-    width: 50%;    
+    width: 50%; 
 }
 
 .flag-col {
     padding-bottom: 7rem;
+    position: relative;
 }
 
 .flag:hover {
@@ -104,4 +105,17 @@ h1 {
     40%, 60% {
         transform: translate3d(0, -2px, 0);
     }
+}
+
+.notif-dot {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    border-radius: 4px;
+    top: -10%;
+    left: 75%;
+    color: var(--text-white);
+    font-weight: bold;
+    font-size: 13px;
+    background: #3e303c;
 }
