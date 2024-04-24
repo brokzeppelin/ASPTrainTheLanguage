@@ -21,10 +21,14 @@ html {
 body {
     margin-bottom: 60px;
     background-color: var(--text-base);
+    background-image: url('../images/noise.png');
+    background-size: 200px 200px;
 }
 
 .navbar {
     background-color: var(--text-base);
+    background-image: url('../images/noise.png');
+    background-size: 200px 200px;
 }
 
 .nav-link:hover {
