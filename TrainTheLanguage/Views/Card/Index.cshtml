@@ -1,0 +1,21 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model IEnumerable<Card>
+
+@{
+}
+<div class="container my-5">
+    @{
+        foreach (Card wordCard in Model)
+        {
+            <div class="word-card row mx-4 my-4 p-2">
+                <div class="word text-bold col-9">@Html.DisplayFor(card => wordCard.Word)</div>
+                <div class="sound offset-1 col-1"></div>
+                <div class="delete text-end col-1"><button type="button" class=" btn-del">x</button></div>
+                <div class="definition col-12">@Html.DisplayFor(card => wordCard.Definition)</div>
+                <div class="example text-italic col-12 mt-3">@Html.DisplayFor(card => wordCard.Example)</div>
+            </div>
+        }
+    }
+</div>
