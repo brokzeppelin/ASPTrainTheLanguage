@@ -19,6 +19,11 @@ html {
   min-height: 100%;
 }
 
+::selection {
+    color: var(--text-base);
+    background: var(--text-white);
+}
+
 body {
     margin-bottom: 60px;
     background-color: var(--text-base);
